@@ -27,7 +27,7 @@ Voortgang (gehaalde toetsen, zelfevaluatie) wordt op het toestel bewaard. iOS ka
 
 ## Bijwerken
 
-Vervang `index.html` en verhoog in `sw.js` het versienummer (`sousa-academy-v2` → `v3`). Bij het eerstvolgende online bezoek haalt de app de nieuwe versie op.
+Vervang `index.html` en verhoog in `sw.js` het versienummer (`sousa-academy-v3` → `v4`). Bij het eerstvolgende online bezoek haalt de app de nieuwe versie op.
 
 ## Peildatum cijfers
 
