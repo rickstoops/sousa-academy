@@ -109,7 +109,7 @@ body{font-family:'Inter',system-ui,sans-serif;background:var(--paper);color:var(
 
 /* ---------- kop ---------- */
 header{position:sticky;top:0;z-index:50;background:var(--ink);color:var(--paper);padding:calc(.6rem + env(safe-area-inset-top,0px)) var(--gutter) .6rem;display:flex;align-items:center;gap:.7rem;border-bottom:3px solid var(--amber)}
-header h1{font-family:'Poppins',sans-serif;font-size:.95rem;font-weight:700;flex:1;min-width:0;line-height:1.2}
+header h1{font-family:'Poppins',sans-serif;font-size:.95rem;font-weight:700;flex:1;min-width:0;line-height:1.2;white-space:nowrap;overflow:hidden}
 header h1 small{display:block;font-family:'IBM Plex Mono',monospace;font-weight:400;font-size:.62rem;color:#A3A7B2;letter-spacing:.06em;text-transform:uppercase;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .brand{display:inline-flex;align-items:center;gap:.3rem;margin-right:.5rem;padding-right:.5rem;border-right:1px solid rgba(255,255,255,.25)}
 .brand em{color:var(--amber);font-style:normal}
@@ -279,7 +279,7 @@ footer{border-top:1px solid var(--line);padding:1.2rem var(--gutter);font-size:.
 <body>
 
 <header>
-  <h1><span class="brand"><span class="pijl" aria-hidden="true"></span>Sousa <em>Management</em></span>Academy<small>Crash course · aankoop · verkoop · verhuur · Den Bosch</small></h1>
+  <h1><span class="brand"><span class="pijl" aria-hidden="true"></span>Sousa <em>Academy</em></span><small>Crash course · aankoop · verkoop · verhuur · Den Bosch</small></h1>
   <div class="batt" aria-label="Voortgang">
     <div class="batt-shell" id="battShell">
       <div class="seg"></div><div class="seg"></div><div class="seg"></div><div class="seg"></div><div class="seg"></div><div class="seg"></div><div class="seg"></div>
